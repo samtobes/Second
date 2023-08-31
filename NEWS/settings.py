@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://samtobes-da96b17b95b6.herokuapp.com/"]
+ALLOWED_HOSTS = ["samtobes-da96b17b95b6.herokuapp.com"]
 
 
 # Application definition
