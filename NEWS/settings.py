@@ -44,12 +44,12 @@ INSTALLED_APPS = [
 
 DATABASES = {     
 'default': {
- 'ENGINE': 'django.db.backends.postgresql_psycopg2',
- 'NAME': 'NEWS',
+ 'ENGINE': 'django.db.backends.postgresql',
+ 'NAME': 'railway',
  'USER': 'postgres',
  'PASSWORD': config('POSTGRES_PASSWORD'),
- 'HOST': 'localhost',
- 'PORT': '5432'  
+ 'HOST': 'containers-us-west-37.railway.app',
+ 'PORT': '7612'  
 } 
 } 
 
